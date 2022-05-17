@@ -9,11 +9,9 @@ function App() {
     dispatch(loadRobotDataThunk());
   }, [dispatch]);
   return (
-    <div className="App">
-      {" "}
-      <h1>Robots Web in process...</h1>
+    <>
       <RobotList />
-    </div>
+    </>
   );
 }
 
