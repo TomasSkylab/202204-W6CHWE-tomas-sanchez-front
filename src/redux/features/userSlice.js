@@ -9,4 +9,4 @@ const userSlice = createSlice({
 });
 
 export const { login: loginUserActionCreator } = userSlice.actions;
-export default userSlice;
+export default userSlice.reducer;
